@@ -1,0 +1,22 @@
+/* File Uploader Text Color Fix */
+.stFileUploader section [data-testid="stMarkdownContainer"] p {
+    color: #000000 !important;
+    font-weight: 500 !important;
+}
+
+/* File Uploader Browse Button Text */
+.stFileUploader button {
+    color: #000000 !important;
+}
+
+/* File Uploader Border and Background */
+[data-testid="stFileUploaderSection"] {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border: 2px dashed #3a7bd5 !important;
+    border-radius: 15px !important;
+}
+
+/* Filename text color after upload */
+[data-testid="stFileUploaderFileName"] {
+    color: #000000 !important;
+}
